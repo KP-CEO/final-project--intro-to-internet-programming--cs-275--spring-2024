@@ -1,0 +1,45 @@
+body {
+  font-weight: 1000;
+  font-style: oblique;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 75px;
+  border-width: 2px;
+  border-style: solid;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 50px;
+}
+
+.main-box {
+  box-shadow: 0 0 20px purple;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  margin: 150px;
+}
+
+.matrix-box {
+  margin: 45px;
+}
+
+td {
+  padding: 5px;
+  border: 1.5px solid black;
+}
+
+.highlighter {
+  background-color: purple;
+  color: white;
+}
